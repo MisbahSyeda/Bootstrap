@@ -1,0 +1,68 @@
+body{
+    font-family: 'Laila', serif;
+    margin:0;
+    padding:0;
+    background-color: #e6e6e6;
+}
+.carousel-caption{
+    bottom:80px;
+    color:black;
+}
+.navbar .navbar-brand{
+    font-weight:bold;
+    font-size:30px;
+}
+.navbar .nav-item{
+    font-size:16px;
+}
+.navbar .nav-item .nav-link{
+    color:black;
+}
+.container{
+    margin-top:10px;
+}
+.container-fluid{
+    margin:10px;
+}
+.second{
+    margin:10% 0;
+}
+.heading{
+    margin:70px 0;
+}
+.heading:after{
+    content: ""; 
+    display: block; 
+    margin: 0 auto; 
+    width: 20%;
+    padding-top: 20px; 
+    border-bottom: 2px groove black; 
+}
+.watch-video{
+    padding-top:5%;
+}
+.amazon{
+    display:block;
+    border:2px solid green;
+    box-shadow: 2px 3px 5px black;
+}
+.amazon-first{
+    border:2px solid white;
+    box-shadow: 2px 2px 5px black;
+}
+.card{
+    border:2px solid black;
+    box-shadow: 2px 2px 5px black;
+    padding:10px;
+}
+header{
+    height:15vh;
+}
+nav{
+    box-shadow:2px 2px 5px gray;    
+}
+@media screen and (max-width:500px){
+    .cards{
+        margin:0;
+    }
+}
