@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-        <link href="https://fonts.googleapis.com/css?family=Laila" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Laila" rel="stylesheet">
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -16,45 +16,46 @@
 
 <body>
     <!--header starts-->
-    <header >
-        <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
-            <div class="container">
-                <a class="navbar-brand" href="#">Amazon</a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-                    aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-    
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav ml-auto">
-                        <li class="nav-item active">
-                            <a class="nav-link" href="#">Today's Deal <span class="sr-only">(current)</span></a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Sell</a>
-                        </li>
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
-                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                Department
-                            </a>
-                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                <a class="dropdown-item" href="#">Arts and Craft</a>
-                                <a class="dropdown-item" href="#">Automotive</a>
-                                <a class="dropdown-item" href="#">Books</a>
-                                <a class="dropdown-item" href="#">Computers</a>
-                            </div>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#" tabindex="-1" aria-disabled="true">Registry</a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </nav>
-    </header>
-    <!--header ends-->
 
+    <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
+        <div class="container">
+            <a class="navbar-brand" href="#">Amazon</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">About<span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Products</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Video</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Pricing</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Department
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="#">Arts and Craft</a>
+                            <a class="dropdown-item" href="#">Automotive</a>
+                            <a class="dropdown-item" href="#">Books</a>
+                            <a class="dropdown-item" href="#">Computers</a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!--header ends-->
     <!-- carousel starts-->
     <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
         <div class="carousel-inner">
@@ -82,7 +83,7 @@
     <!-- carousel ends-->
 
     <!--div-->
-    <div class="container-fluid">
+    <div class="container-fluid" id="about">
         <div class="row">
             <div class="col-md-6 col-sx-3">
                 <img src="./Images/amazon+mgn3.jpg" class="img-fluid amazon-first">
@@ -104,56 +105,58 @@
     </div>
     <!--div end-->
 
-    <div>
+    <div id="product">
         <h1 class="text-center heading">Our Products</h1>
     </div>
     <!--card starts-->
-    <div class="row justify-content-center">
-        <div class="card m-2 cards" style="width: 18rem;">
-            <img src="./Images/NOKIA_5_1_PLUS_4K_1.jpg" class="card-img-top" alt="...">
-            <div class="card-body">
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-                    card's
-                    content.</p>
+    <div class="container">
+        <div class=" row text-center justify-content-center">
+            <div class="card m-3" style="width: 18rem;">
+                <img src="./Images/NOKIA_5_1_PLUS_4K_1.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                        card's
+                        content.</p>
+                </div>
+            </div>
+            <div class="card m-3" style="width: 18rem;">
+                <img src="./Images/images (1).jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                        card's
+                        content.</p>
+                </div>
+            </div>
+            <div class="card m-3" style="width: 18rem;">
+                <img src="./Images/images (2).jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                        card's
+                        content.</p>
+                </div>
             </div>
         </div>
-        <div class="card m-2 cards" style="width: 18rem;">
-            <img src="./Images/images (1).jpg" class="card-img-top" alt="...">
-            <div class="card-body">
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-                    card's
-                    content.</p>
-            </div>
-        </div>
-        <div class="card m-2 cards" style="width: 18rem;">
-            <img src="./Images/images (2).jpg" class="card-img-top" alt="...">
-            <div class="card-body">
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-                    card's
-                    content.</p>
-            </div>
-        </div>
+
     </div>
     <!--card ends-->
 
     <!--video start-->
-    <div class="container-fluid row second">
+    <div class="container-fluid row second" id="video">
         <div class="col-md-6 ">
             <a href="#" class="amazon">
-                <img src="./Images/amazon_prime_video_logo.jpg" data-toggle="modal"
-                    data-target="#exampleModalCentered" class="img-fluid ">
+                <img src="./Images/amazon_prime_video_logo.jpg" data-toggle="modal" data-target="#exampleModalCentered"
+                    class="img-fluid ">
             </a>
             <!-- Modal -->
-            <div class="modal fade" id="exampleModalCentered" tabindex="-1" role="dialog"
-                 aria-hidden="true">
-                <div class="modal-dialog modal-lg modal-dialog-centered" >
+            <div class="modal fade" id="exampleModalCentered" tabindex="-1" role="dialog" aria-hidden="true">
+                <div class="modal-dialog modal-lg modal-dialog-centered">
                     <div class="modal-content">
-                                  <div class="modal-header">
-                                        <h5 class="modal-title" id="exampleModalCentered">Modal title</h5>
-                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                          <span aria-hidden="true">x</span>
-                                        </button>
-                                      </div>
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="exampleModalCentered">Modal title</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">x</span>
+                            </button>
+                        </div>
                         <div class="modal-body ">
                             <div class="embed-responsive embed-responsive-16by9">
                                 <iframe id="exampleModalCentered" class="embed-responsive-item"
@@ -180,7 +183,7 @@
     <!--video end-->
     <!--pricing-->
     <div>
-        <h1 class="text-center heading">Pricing</h1>
+        <h1 class="text-center heading" id="pricing">Pricing</h1>
     </div>
     <div class="container">
         <div class="card-deck mb-3 text-center">
