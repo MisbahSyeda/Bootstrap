@@ -20,13 +20,6 @@ body{
 .navbar .nav-item .nav-link{
     color:black;
 }
-.container{
-    margin-top:10px;
-}
-.second{
-    margin:10% 0;
-}
-
 .heading{
     margin:70px 0;
 }
@@ -57,4 +50,16 @@ body{
 }
 .navbar{
     box-shadow:2px 2px 5px gray;
+}
+#about{
+    padding-top:10%;
+}
+#product{
+    padding-top:2%;
+}
+#video{
+    padding-top:10%;
+}
+#pricing{
+    padding-top:10%;
 }
